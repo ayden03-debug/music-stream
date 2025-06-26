@@ -56,5 +56,5 @@ No real playback or backend connectivity—just the frontend layouts and styling
 
 ---
 
-*Built by [Your Name](https://github.com/your-username)*  
+*Built by [Ayden Archana Shine](https://github.com/ayden03-debug)*  
 
