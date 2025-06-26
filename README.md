@@ -1,39 +1,19 @@
 # 🟣 Zemirta
 
-> **Your Personal Music Streaming App**  
-> A React/Vite-powered web player with a vibrant pink theme, light/dark-mode support, and custom favicons.
+> A static, pink-themed music-streaming **UI prototype** built with React and Tailwind CSS.
 
 ---
 
-## 🔍 Table of Contents
+## 📝 Project Overview
 
-- [Demo](#-demo)  
-- [Features](#-features)  
-- [Tech Stack](#-tech-stack)  
-- [Getting Started](#%EF%B8%8F-getting-started)  
-  - [Installation](#installation)  
-  - [Running Locally](#running-locally)  
-- [Browser Favicon & Theme Icons](#-browser-favicon--theme-icons)  
-- [Folder Structure](#-folder-structure)  
-- [Contributing](#-contributing)  
-- [License](#-license)  
+This repo contains the complete source for **Zemirta’s** user interface only.  
+No real playback or backend connectivity—just the frontend layouts and styling to demonstrate my work on:
 
----
-
-## 🚀 Demo
-
-👉 **Live:** https://your-github-pages-url or https://zemirta.example.com  
-![Zemirta Screenshot](docs/screenshot.png)
-
----
-
-## ✨ Features
-
-- 🎵 Browse, search and play tracks (stubbed)  
-- 🌈 **Light & Dark** theme with automatic favicon switching  
-- 🎨 Vibrant pink gradient branding  
-- 📱 Fully **responsive** layout  
-- ⚡️ Fast HMR via Vite  
+- **Home:** Hero banner, featured playlists  
+- **Browse:** Grid of albums/playlists  
+- **Sidebar:** Navigation links and custom logo  
+- **Responsive design:** Adapts from mobile to desktop  
+- **Branding:** Vibrant pink theme and custom “Z + note” icon
 
 ---
 
@@ -41,18 +21,40 @@
 
 - **Framework:** React 18 + Vite  
 - **Styling:** Tailwind CSS  
-- **Icons:** Heroicons & Custom “Z + Note” SVG  
-- **Theming:** CSS `prefers-color-scheme` media queries  
-- **Bundler:** Vite  
-- **Version control:** Git + GitHub  
+- **Icons:** Custom SVG for logo + Heroicons  
+- **Build:** Vite (HMR, fast rebuilds)
 
 ---
 
-## ⚙️ Getting Started
+## 📂 Folder Structure
 
-### Installation
+/
+├─ public/
+│ ├─ favicon.ico
+│ └─ index.html
+├─ src/
+│ ├─ assets/ # logo SVG, images
+│ ├─ components/ # UI pieces (Sidebar, Card, Navbar…)
+│ ├─ pages/ # Home.jsx, Browse.jsx
+│ ├─ App.jsx # routes & layout
+│ └─ main.jsx # entry point
+├─ tailwind.config.js
+├─ package.json
+└─ README.md
 
-1. **Clone** this repo  
-   ```bash
-   git clone https://github.com/ayden03-debug/zemirta.git
-   cd zemirta
+
+
+---
+
+## 🔍 Viewing the Code
+
+- All UI logic lives under **`src/`**, broken into reusable components.
+- Check out how the pink gradient theme and custom icons are implemented in **`assets/`** and **`components/`**.
+- No backend—everything is mocked/stubbed for layout purposes.
+
+> Feel free to browse the code and see how the layout, theming, and component structure come together!
+
+---
+
+*Built by [Your Name](https://github.com/your-username)*  
+
