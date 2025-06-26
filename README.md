@@ -29,22 +29,20 @@ No real playback or backend connectivity—just the frontend layouts and styling
 ## 📂 Folder Structure
 
 /
-├─ public/
-│ ├─ favicon.ico
-│ └─ index.html
-├─ src/
-│ ├─ assets/ # logo SVG, images
-│ ├─ components/ # UI pieces (Sidebar, Card, Navbar…)
-│ ├─ pages/ # Home.jsx, Browse.jsx
-│ ├─ App.jsx # routes & layout
-│ └─ main.jsx # entry point
-├─ tailwind.config.js
-├─ package.json
+├─ public/  
+│   ├─ favicons/        # light & dark favicon assets  
+│   └─ index.html       # main HTML template  
+├─ src/  
+│   ├─ components/      # React UI components  
+│   ├─ styles/          # Tailwind & global CSS  
+│   ├─ App.jsx          # root component  
+│   └─ main.jsx         # entry point  
+├─ docs/  
+│   └─ screenshot.png   # demo screenshot  
+├─ .gitignore  
+├─ package.json  
 └─ README.md
 
-
-
----
 
 ## 🔍 Viewing the Code
 
